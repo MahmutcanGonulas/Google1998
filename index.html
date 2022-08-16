@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /*Logo Hizalama*/
+        .logo {
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        /*Arama Kısmı*/
+        .main-search {
+            background-color: #eeeeee;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }
+
+        .main-search input {
+            width: 300px;
+        }
+
+        h4 {
+            font-weight: 500;
+        }
+
+        /*Linkler*/
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        /*Yan Yana Hizalama-Container*/
+        .container {
+            margin: auto;
+            width: 80.3%;
+
+        }
+
+        .col-3 {
+            text-align: center;
+            padding: 5px;
+            margin: 2px;
+            float: left;
+            height: 100px;
+
+
+        }
+
+        .link1 {
+            background-color: #7de5da;
+            width: 35%;
+            font-size: 20px;
+
+        }
+
+        .link2 {
+            background-color: #70cbc2;
+            width: 25%;
+        }
+
+        .link3 {
+            background-color: #62b3aa;
+            width: 36.5%;
+        }
+
+        /*Boş ayarlar*/
+        h4 {
+            font-weight: 500;
+        }
+
+        ul li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Logo Kısmı-->
+    <header>
+        <div class="logo">
+            <img src="https://www.google.com/logos/1998/googlebeta.jpg" alt="">
+        </div>
+    </header>
+    <!--Main Kısmı-->
+    <main>
+        <!--Search Kısmı-->
+        <section id="search">
+            <div class="main-search">
+                <h4>Search the web using Google!</h4>
+                <input type="text" placeholder="Mahmut Can GÖNÜLTAŞ">
+                <div class="btns">
+                    <button>Google Search</button>
+                    <button>I'm feeling lucky</button>
+                </div>
+            </div>
+        </section>
+        <!--3'lü kısım-->
+        <section id="links">
+            <div class="row">
+                <div class="container clearfix">
+                    <div class="col-3 link1">
+                        <h4>Special Searches</h4>
+                        <ul>
+                            <a href="">
+                                <li>Standford Search</li>
+                            </a>
+                            <a href="">
+                                <li>Linux</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-3 link2">
+                        <ul>
+                            <a href="https://support.google.com/">
+                                <li>Help!</li>
+                            </a>
+                            <a href="https://about.google/">
+                                <li>About Google!</li>
+                            </a>
+                            <a
+                                href="https://login.company.info/auth/realms/services/protocol/openid-connect/auth?response_type=code&client_id=online&redirect_uri=https%3A%2F%2Fcompany.info%2Fsso%2Flogin&state=51f6e0a7-b99d-45aa-82bb-fbae5fa16249&login=true&scope=openid">
+                                <li>Company Info</li>
+                            </a>
+                            <a href="https://about.google/brand-resource-center/logos-list/">
+                                <li>Google Logos</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-3 link3">
+                        <p>Get Google!</p>
+                        <p>Updates Monthly</p>
+                        <input type="text" placeholder="your e-mail">
+                        <div>
+                            <button>Subscirbe</button>
+                            <a href="https://elgoog.im/google1998/" style="padding-left:10px ;">Archive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align:center;">
+        <br>
+        <font size="-1">Copyright ©1998 Google Inc.</font>
+    </footer>
+</body>
+
+</html>
